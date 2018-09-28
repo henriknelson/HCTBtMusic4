@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bluetooth</string>
+    <string name="modulename">Название устройства:</string>
+    <string name="modulepassword">Пароль:</string>
+    <string name="autoanswer">Автоответ:</string>
+    <string name="autoconnect">Автосоединение:</string>
+    <string name="busy_talking">Разговор, попробуйте позже!</string>
+    <string name="busy_loadingphonebook">Загружается адресная книга, попробуйте позже!</string>
+    <string name="busy_scanningdevice">Скнирование устройств, попробуйте позже!</string>
+    <string name="matchdevice">Сопряженные устройства</string>
+    <string name="searchdevice">Доступные устройства</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="search">Поиск</string>
+    <string name="bluetooth_device_context_connect">Соединить?</string>
+    <string name="bluetooth_device_context_disconnect">Разъединить?</string>
+    <string name="btdisconnected">Подключение Bluetooth</string>
+    <string name="pleaseconnectedbt">Пожалуйста, подключите к телефону</string>
+    <string name="unknown">неизвестный</string>
+</resources>

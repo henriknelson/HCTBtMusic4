@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Eller Serbest</string>
+    <string name="modulename">Cihaz Adı :</string>
+    <string name="modulepassword">Pin No :</string>
+    <string name="autoanswer">Otomatik Cevapla :</string>
+    <string name="autoconnect">Otomatik Bağlan :</string>
+    <string name="busy_talking">Konuşma sürüyor , sonra deneyin !</string>
+    <string name="busy_loadingphonebook">Tel. Defteri yükleniyor , sonra deneyin !</string>
+    <string name="busy_scanningdevice">Cihaz taranıyor , sonra deneyin !</string>
+    <string name="matchdevice">Eşleşmiş cihazlar</string>
+    <string name="searchdevice">Uygun Cihazlar</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="search">Taranıyor</string>
+    <string name="bluetooth_device_context_connect">Bağlantı ?</string>
+    <string name="bluetooth_device_context_disconnect">Bağlantı Kes ?</string>
+    <string name="btmusic">BT Müzik</string>
+    <string name="unknown">bilinmeyen</string>
+</resources>

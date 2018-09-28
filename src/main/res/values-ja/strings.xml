@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bluetooth</string>
+    <string name="modulename">デバイス名:</string>
+    <string name="modulepassword">暗証番号:</string>
+    <string name="autoanswer">自動応答:</string>
+    <string name="autoconnect">自動接続:</string>
+    <string name="busy_talking">ただいま電話に出る事ができません。もう一度おかけ直しください。</string>
+    <string name="busy_loadingphonebook">電話帳を読み込み中です…しばらくお待ちください。</string>
+    <string name="busy_scanningdevice">デバイスをスキャン中です…しばらくお待ちください。</string>
+    <string name="matchdevice">デバイスの組み合わせ</string>
+    <string name="searchdevice">利用可能なデバイス</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="search">検索します</string>
+    <string name="bluetooth_device_context_connect">接続しますか？</string>
+    <string name="bluetooth_device_context_disconnect">切断しますか？</string>
+    <string name="unknown">不明</string>
+</resources>

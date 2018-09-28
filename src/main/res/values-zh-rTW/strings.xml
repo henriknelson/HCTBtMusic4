@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">電話</string>
+    <string name="modulename">設備名稱</string>
+    <string name="modulepassword">PIN碼</string>
+    <string name="autoanswer">自動接聽</string>
+    <string name="autoconnect">自動連接</string>
+    <string name="busy_talking">通話忙，請梢後再試！</string>
+    <string name="busy_loadingphonebook">正在下載電話本，請梢後再試！</string>
+    <string name="busy_scanningdevice">正在搜索設備，請梢後再試！</string>
+    <string name="matchdevice">已配對設備</string>
+    <string name="searchdevice">可用設備</string>
+    <string name="bluetooth">藍牙</string>
+    <string name="search">搜索</string>
+    <string name="btdisconnected">藍牙無連接</string>
+    <string name="pleaseconnectedbt">請用手機連接</string>
+    <string name="unknown">未知</string>
+</resources>

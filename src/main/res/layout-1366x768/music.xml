@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mtc="http://schemas.android.com/apk/res-auto" android:background="@drawable/bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/music_alarm" android:background="@drawable/music_alarm" android:layout_width="817px" android:layout_height="275px">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0px" android:layout_weight="1">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="126px" android:layout_height="126px" android:layout_marginLeft="40px" android:src="@drawable/lanyasousuo" android:scaleType="fitXY"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <View android:layout_width="wrap_content" android:layout_height="0px" android:layout_weight="1"/>
+                <TextView android:textSize="64px" android:textColor="#505050" android:ellipsize="end" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20px" android:text="@string/btdisconnected" android:singleLine="true"/>
+                <TextView android:textSize="35px" android:textColor="#505050" android:ellipsize="end" android:gravity="center" android:id="@+id/bt_alarm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="47px" android:text="@string/pleaseconnectedbt" android:singleLine="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/btinfo" android:layout_width="match_parent" android:layout_height="80px">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="32px" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/tv_name" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/modulename" android:singleLine="true"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="32px" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/tv_pincode" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/modulepassword" android:singleLine="true"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/music_part" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="692px" android:layout_height="339px" android:layout_marginBottom="299px" android:src="@drawable/eq_bg"/>
+        <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="174px" android:src="#40000000"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="266px">
+            <TextView android:textSize="41px" android:textColor="#ffffff" android:id="@+id/music_name" android:layout_width="wrap_content" android:layout_height="60px" android:singleLine="true"/>
+            <TextView android:textSize="37px" android:textColor="#ffffff" android:id="@+id/music_artist" android:layout_width="wrap_content" android:layout_height="51px" android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="348px">
+            <com.microntek.btmusic.MyButton android:id="@+id/music_pre" android:background="@drawable/btn_rnd" android:layout_width="122px" android:layout_height="122px" mtc:imgWidth="74px" mtc:imgHeight="74px" mtc:imgSrc="@drawable/music_reft"/>
+            <com.microntek.btmusic.MyButton android:id="@+id/music_play" android:background="@drawable/btn_rnd" android:layout_width="144px" android:layout_height="144px" android:layout_marginLeft="109px" mtc:imgWidth="80px" mtc:imgHeight="80px" mtc:imgSrc="@drawable/music_pause"/>
+            <com.microntek.btmusic.MyButton android:id="@+id/music_next" android:background="@drawable/btn_rnd" android:layout_width="122px" android:layout_height="122px" android:layout_marginLeft="109px" mtc:imgWidth="74px" mtc:imgHeight="74px" mtc:imgSrc="@drawable/music_rigth"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بلوتوث</string>
+    <string name="modulename">اسم الجهاز</string>
+    <string name="modulepassword">كلمة المرور</string>
+    <string name="autoanswer">رد آلي</string>
+    <string name="autoconnect">توصيل آلي</string>
+    <string name="busy_talking">يتحدث مشغول، الرجاء المحاولة لاحقا!</string>
+    <string name="busy_loadingphonebook">تحميل دليل الهاتف، يرجى المحاولة لاحقا!</string>
+    <string name="busy_scanningdevice">جهاز البحث، الرجاء المحاولة لاحقا!</string>
+    <string name="matchdevice">الأجهزة المقترنة</string>
+    <string name="searchdevice">الأجهزة المتوفرة</string>
+    <string name="bluetooth">بلوتوث</string>
+    <string name="search">بحث</string>
+    <string name="btdisconnected">اتصال بلوتوث</string>
+    <string name="pleaseconnectedbt">الرجاء الاتصال مع الهاتف</string>
+    <string name="unknown">غير معروف</string>
+</resources>

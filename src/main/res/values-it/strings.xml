@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bluetooth</string>
+    <string name="modulename">Nome dispositivo:</string>
+    <string name="modulepassword">Numero PIN:</string>
+    <string name="autoanswer">Risposta automatica:</string>
+    <string name="autoconnect">Connessione automatica:</string>
+    <string name="busy_talking">Impegnato in un\'altra conversazione, riprovare dopo!</string>
+    <string name="busy_loadingphonebook">Scarico rubrica, riprovare dopo!</string>
+    <string name="busy_scanningdevice">Scansione dispositivo, riprovare dopo!</string>
+    <string name="matchdevice">Dispositivi associati</string>
+    <string name="searchdevice">Dispositivi disponibili</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="search">Ricerca</string>
+    <string name="btdisconnected">Connessione Bluetooth</string>
+    <string name="pleaseconnectedbt">Si prega di collegarsi con il telefono</string>
+    <string name="unknown">sconosciuto</string>
+</resources>
