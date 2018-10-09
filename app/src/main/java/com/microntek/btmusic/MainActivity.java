@@ -25,6 +25,8 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
+import com.microntek.btmusic.gui.MyButton;
+
 import static android.media.AudioManager.AUDIOFOCUS_GAIN;
 import static android.media.AudioManager.AUDIOFOCUS_LOSS;
 import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT;
@@ -182,12 +184,12 @@ public class MainActivity extends Activity implements OnClickListener {
         this.alarmView = findViewById(R.id.music_alarm);
         this.musicView = findViewById(R.id.music_part);
         this.btInfoView = this.alarmView.findViewById(R.id.btinfo);
-        this.btAlarmTextView = findViewById(R.id.bt_alarm);
-        this.btModuleNameTextView = this.alarmView.findViewById(R.id.tv_name);
-        this.btModulePasscodeTextView = this.alarmView.findViewById(R.id.tv_pincode);
-        this.previousMusicBtn = findViewById(R.id.music_pre);
-        this.playOrPauseMusicBtn = findViewById(R.id.music_play);
-        this.nextMusicBtn = findViewById(R.id.music_next);
+        this.btAlarmTextView = (TextView) findViewById(R.id.bt_alarm);
+        this.btModuleNameTextView = (TextView) this.alarmView.findViewById(R.id.tv_name);
+        this.btModulePasscodeTextView = (TextView) this.alarmView.findViewById(R.id.tv_pincode);
+        this.previousMusicBtn = (MyButton) findViewById(R.id.music_pre);
+        this.playOrPauseMusicBtn = (MyButton)findViewById(R.id.music_play);
+        this.nextMusicBtn = (MyButton) findViewById(R.id.music_next);
         this.previousMusicBtn.setOnClickListener(this);
         this.playOrPauseMusicBtn.setOnClickListener(this);
         this.nextMusicBtn.setOnClickListener(this);

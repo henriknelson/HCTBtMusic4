@@ -1,35 +1,16 @@
 buildscript {
     repositories {
         jcenter()
+        google()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.0'
     }
 }
-apply plugin: 'com.android.application'
 
-repositories {
-    mavenCentral()
-    jcenter()
-}
-
-android {
-    compileSdkVersion 26
-    buildToolsVersion '28.0.2'
-
-    defaultConfig {
-        applicationId 'com.microntek.btmusic'
-        minSdkVersion 26
-        targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+allprojects {
+    repositories {
+        jcenter()
+        google()
     }
-
-    lintOptions {
-        abortOnError false
-    }
-}
-
-dependencies {
-    // some dependencies
 }
